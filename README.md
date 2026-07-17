@@ -1,0 +1,42 @@
+# Coco Inc · Rijul Kalra
+
+Regulated-risk product leader who builds and open-sources the agentic AI he designs. By day I lead AI and Risk & Compliance products at McKinsey. This account is the work I build in the open.
+
+I care about the same things in both worlds: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
+
+## CoCo, the flagship
+
+**[coco](https://github.com/coco-research/coco)** is an open-source agentic-AI orchestration framework that turns Claude Code, Cursor, or Codex into a full engineering department: a 389-persona advisory board, 142 skills, and 277 commands, with local privacy and universal compatibility. MIT licensed.
+
+## The CoCo suite
+
+Original work, grouped by what it does.
+
+**Platform and memory**
+- **CoCo Platform**, a local-first control plane for AI coding agents that pairs a React UI (26+ surfaces) with a FastAPI backend, a governed memory architecture, and a self-evolving agent loop that halts at a human-approval gate (private).
+- **CoCo Memory and M0**, a deduplicated entity spine plus a cross-tool operational thread that lets Claude Code and Cursor share one live context (private runtime).
+- **CoCo Router**, sovereign model routing that dispatches every call by task, cost, and load and hard-blocks raw public-cloud egress for regulated content (private runtime).
+- **CoCo Connect**, a one-command installer that wires CoCo into Claude Code and Cursor with idempotent, backed-up, health-checked connections (private runtime).
+
+**Governance and reasoning**
+- **[coco-loops](https://github.com/coco-research/coco-loops)**, a governed autonomous-loop framework: a verifier that defaults to reject, an immutable eight-invariant constitution only a human can amend, a bounded-lifetime kill switch, and a promotion gate. Built with 114 passing tests and one verified live proof.
+- **CoCo Superintelligence Teams**, attributed decision panels across 9 expert-persona teams (389 cited real-world personas), used for real architecture and product decisions.
+- **[coco-fusion](https://github.com/coco-research/coco-fusion)**, a multi-model persona council, parked after an honest null-result evaluation against a single frontier model.
+
+**Apps and tools**
+- **[Coco-Voice](https://github.com/coco-research/Coco-Voice)**, a free, open-source, on-device speech-to-text desktop app.
+- **[coco-pdf](https://github.com/coco-research/coco-pdf)**, a one-click desktop PDF editor.
+- **[PM-Studio](https://github.com/coco-research/PM-Studio)**, a product-management deliverable and document studio.
+- **[PM-with-AI](https://github.com/coco-research/PM-with-AI)**, a tool-agnostic methodology for working with AI as a product manager.
+- **[Mira](https://github.com/coco-research/Mira)**, a local-first short-form-video engine (English and Hindi, human in the loop).
+- **CoCo Graphify**, a managed code-knowledge-graph; and **CoCo Ads**, a fully local launch-video skill adapted from the open-source `brag` skill (credited).
+
+## Research
+
+Co-author, with Leobardo Mora, of "Agentic Contracts: Smart, Bounded Specifications for Governable Stochastic Agents," the theoretical spine underneath CoCo Loops. Public listing pending clearance.
+
+## A note on this account
+
+Alongside the original work above, this account keeps a curated set of forks I study to benchmark my own product decisions (model routers, agent harnesses, memory systems, and video tools). Those are other people's projects, kept for reference, and are not represented as mine.
+
+Find me on [LinkedIn](https://www.linkedin.com/in/rijulkalra).
