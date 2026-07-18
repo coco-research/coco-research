@@ -14,6 +14,7 @@ Original work, grouped by what it does.
 
 **Platform and memory**
 - **CoCo Platform**, a local-first control plane for AI coding agents that pairs a React UI (26+ surfaces) with a FastAPI backend, a governed memory architecture, and a self-evolving agent loop that halts at a human-approval gate (private).
+- **CoCo Hermes**, the backend intelligence layer — API, RAG, a canonical entity spine (deduplicated to 0% fragmentation), a hierarchical memory tree, and a citation-gated retrieval router (private runtime).
 - **CoCo Memory and M0**, a deduplicated entity spine plus a cross-tool operational thread that lets Claude Code and Cursor share one live context (private runtime).
 - **CoCo Router**, sovereign model routing that dispatches every call by task, cost, and load and hard-blocks raw public-cloud egress for regulated content (private runtime).
 - **CoCo Connect**, a one-command installer that wires CoCo into Claude Code and Cursor with idempotent, backed-up, health-checked connections (private runtime).
@@ -27,6 +28,7 @@ Original work, grouped by what it does.
 - **[Coco-Voice](https://github.com/coco-research/Coco-Voice)**, a free, open-source, on-device speech-to-text desktop app.
 - **CoCo-PDF**, a one-click desktop PDF editor (private).
 - **[PM-Studio](https://github.com/coco-research/PM-Studio)**, a product-management deliverable and document studio.
+- **[StoryDeck](https://github.com/coco-research/storydeck)**, a local-first, on-device sprint deck tool.
 - **PM-with-AI**, a tool-agnostic methodology for working with AI as a product manager (private).
 - **Mira**, a local-first short-form-video engine (English and Hindi, human in the loop). Private; will publish under AGPL-3.0.
 - **CoCo Graphify**, a managed code-knowledge-graph; and **CoCo Ads**, a fully local launch-video skill adapted from the open-source `brag` skill (credited).
