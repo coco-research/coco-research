@@ -1,6 +1,6 @@
 # Coco Inc · Rijul Kalra
 
-Regulated-risk product leader who builds and open-sources the agentic AI he designs. By day I lead AI and Risk & Compliance products at McKinsey. This account is the work I build in the open.
+This account is the work I build in the open.
 
 I care about the same things in both worlds: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
 
