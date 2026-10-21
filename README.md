@@ -1,8 +1,8 @@
-# Coco Inc · Rijul Kalra
+# Coco Research
 
-This account is the work I build in the open.
+Coco Research: local-first tools for people who work with AI agents.
 
-I care about the same things in both worlds: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
+What this work is about: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
 
 ## CoCo, the flagship
 
@@ -15,7 +15,7 @@ Original work, grouped by what it does.
 **Platform and memory**
 - **CoCo Platform**, a local-first control plane for AI coding agents that pairs a React UI (26+ surfaces) with a FastAPI backend, a governed memory architecture, and a self-evolving agent loop that halts at a human-approval gate (private).
 - **CoCo Hermes**, the backend intelligence layer — API, RAG, a canonical entity spine (deduplicated to 0% fragmentation), a hierarchical memory tree, and a citation-gated retrieval router (private runtime).
-- **CoCo Memory and M0**, a deduplicated entity spine plus a cross-tool operational thread that lets Claude Code and Cursor share one live context (private runtime).
+- **CoCo Memory**, a deduplicated entity spine plus a cross-tool operational thread that lets Claude Code and Cursor share one live context (private runtime).
 - **CoCo Router**, sovereign model routing that dispatches every call by task, cost, and load and hard-blocks raw public-cloud egress for regulated content (private runtime).
 - **CoCo Connect**, a one-command installer that wires CoCo into Claude Code and Cursor with idempotent, backed-up, health-checked connections (private runtime).
 
@@ -28,17 +28,11 @@ Original work, grouped by what it does.
 - **[Coco-Voice](https://github.com/coco-research/Coco-Voice)**, a free, open-source, on-device speech-to-text desktop app.
 - **CoCo-PDF**, a one-click desktop PDF editor (private).
 - **[PM-Studio](https://github.com/coco-research/PM-Studio)**, a product-management deliverable and document studio.
-- **[StoryDeck](https://github.com/coco-research/storydeck)**, a local-first, on-device sprint deck tool.
+- **StoryDeck**, a local-first, on-device sprint deck tool (private).
 - **PM-with-AI**, a tool-agnostic methodology for working with AI as a product manager (private).
 - **Mira**, a local-first short-form-video engine (English and Hindi, human in the loop). Private; will publish under AGPL-3.0.
 - **CoCo Graphify**, a managed code-knowledge-graph; and **CoCo Ads**, a fully local launch-video skill adapted from the open-source `brag` skill (credited).
 
-## Research
-
-Co-author, with Leobardo Mora, of "Agentic Contracts: Smart, Bounded Specifications for Governable Stochastic Agents," the theoretical spine underneath CoCo Loops. Public listing pending clearance.
-
 ## A note on this account
 
-Alongside the original work above, this account keeps a curated set of forks I study to benchmark my own product decisions (model routers, agent harnesses, memory systems, and video tools). Those are other people's projects, kept for reference, and are not represented as mine.
-
-Find me on [LinkedIn](https://www.linkedin.com/in/rijulkalra).
+Alongside the original work above, this account keeps a curated set of forks we study to benchmark our own product decisions (model routers, agent harnesses, memory systems, and video tools). Those are other people's projects, kept for reference, and are not represented as ours.
