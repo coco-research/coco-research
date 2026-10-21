@@ -1,6 +1,6 @@
-# Coco Inc · Rijul Kalra
+# Coco Research
 
-This account is the work I build in the open.
+Coco Research: local-first tools for people who work with AI agents.
 
 I care about the same things in both worlds: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
 
@@ -40,5 +40,3 @@ Co-author, with Leobardo Mora, of "Agentic Contracts: Smart, Bounded Specificati
 ## A note on this account
 
 Alongside the original work above, this account keeps a curated set of forks I study to benchmark my own product decisions (model routers, agent harnesses, memory systems, and video tools). Those are other people's projects, kept for reference, and are not represented as mine.
-
-Find me on [LinkedIn](https://www.linkedin.com/in/rijulkalra).
