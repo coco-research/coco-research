@@ -17,7 +17,7 @@ Coco Research: local-first tools for people who work with AI agents.
 
 ## Archived
 
-These are no longer developed. The code stays up for reference.
+This project is no longer developed. The code stays up for reference.
 
 | Project | What it does | Licence | Link |
 | --- | --- | --- | --- |
