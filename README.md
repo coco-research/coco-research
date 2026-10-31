@@ -2,37 +2,36 @@
 
 Coco Research: local-first tools for people who work with AI agents.
 
-What this work is about: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
+## Products
 
-## Coco, the flagship
+| Product | What it does | Licence | Link |
+| --- | --- | --- | --- |
+| **Coco Super Intelligence** | Agent skills, slash commands and subagents for Claude Code, Cursor and Codex. One command installs them into the tool you already use. | the skills and framework are MIT; the Super Intelligence core in systems/superintelligence/ is proprietary. | [coco](https://github.com/coco-research/coco) |
+| **Heliopause** | Organizes your AI tools like a small company, on your own machine, with one page that shows which role is working, what needs you, and what broke. Early preview. | MIT | [heliopause](https://github.com/coco-research/heliopause) |
+| **Tallimo** | Matches GitHub pull requests to Jira stories, so the weekly status note comes from the match instead of being written by hand. Finished; no longer developed. | MIT | [tallimo](https://github.com/coco-research/tallimo) |
+| **Coco Voice** | A desktop speech-to-text app. Hold a key, speak, and the text is typed into the app you have open. Transcription runs on your own computer. Based on [Handy](https://github.com/cjpais/Handy) by CJ Pais. | MIT | [Coco-Voice](https://github.com/coco-research/Coco-Voice) |
+| **Signal** | The Coco design language: a CSS design system for application screens, in Lite, Color and Consult editions. | MIT | [coco-design-language](https://github.com/coco-research/coco-design-language) |
+| **jev-use** | A voice-driven control layer for macOS that runs locally. Pre-alpha; no release yet. | Apache-2.0 | [jev-use](https://github.com/coco-research/jev-use) |
+| **Coco-OpenBot** | A platform for running persistent AI agents. Choose your own model and sandbox. | Apache-2.0 | [Coco-OpenBot](https://github.com/coco-research/Coco-OpenBot) |
+| **coco-loops** | A Python framework that wraps autonomous agent loops with a fixed set of rules, a separate verifier, budget caps, an append-only log and promotion gates. | See [LICENSE](https://github.com/coco-research/coco-loops/blob/main/LICENSE) | [coco-loops](https://github.com/coco-research/coco-loops) |
+| **coco-fusion** | Runs a panel of expert personas across different model families and merges their positions into one advisory verdict. Bring your own API keys. | See [LICENSE](https://github.com/coco-research/coco-fusion/blob/main/LICENSE) | [coco-fusion](https://github.com/coco-research/coco-fusion) |
 
-**[coco](https://github.com/coco-research/coco)** is an agentic-AI orchestration framework that turns Claude Code, Cursor, or Codex into a full engineering department: an advisory board, skills, and commands. Open-core — the framework is MIT; the Super Intelligence board is proprietary.
+## Archived
 
-## The Coco suite
+These are no longer developed. The code stays up for reference.
 
-Original work, grouped by what it does.
+| Project | What it does | Licence | Link |
+| --- | --- | --- | --- |
+| **Mira** | A local-first engine for short-form vertical video in English and Hindi, with a human review step before anything is shared. | AGPL-3.0 | [Mira](https://github.com/coco-research/Mira) |
+| **Texts to Transformer** | Train a tiny Transformer from scratch on your own iMessage history, entirely on your Mac. | MIT | [Coco-texts-to-transformer](https://github.com/coco-research/Coco-texts-to-transformer) |
 
-**Platform and memory**
-- **Coco Platform**, a local-first control plane for AI coding agents that pairs a React UI with a FastAPI backend and a governed memory architecture (private).
-- **Coco Hermes**, the backend intelligence layer — API, RAG, a canonical entity spine (deduplicated), a hierarchical memory tree, and a citation-gated retrieval router (private runtime).
-- **Coco Memory**, a deduplicated entity spine plus a cross-tool operational thread that lets Claude Code and Cursor share one live context (private runtime).
-- **Coco Router**, sovereign model routing that dispatches every call by task, cost, and load and hard-blocks raw public-cloud egress for regulated content (private runtime).
-- **Coco Connect**, a one-command installer that wires Coco into Claude Code and Cursor with idempotent, backed-up, health-checked connections (private runtime).
+## A note on forks
 
-**Governance and reasoning**
-- **[coco-loops](https://github.com/coco-research/coco-loops)**, a governed autonomous-loop framework: a verifier that defaults to reject, an immutable eight-invariant constitution only a human can amend, a bounded-lifetime kill switch, and a promotion gate. Source-available.
-- **Coco Superintelligence Teams**, attributed decision panels, used for real architecture and product decisions. Ships inside `coco` as the proprietary core of the open-core split.
-- **[coco-fusion](https://github.com/coco-research/coco-fusion)**, a bring-your-own-key multi-model persona council, parked after an honest null-result evaluation against a single frontier model. Source-available.
+This account also keeps forks of other people's projects. They are kept for reference and are not Coco products. Credit for each belongs to its original authors.
 
-**Apps and tools**
-- **[Coco-Voice](https://github.com/coco-research/Coco-Voice)**, an on-device speech-to-text desktop app.
-- **Coco-PDF**, a one-click desktop PDF editor (private).
-- **[PM-Studio](https://github.com/coco-research/PM-Studio)**, a product-management deliverable and document studio.
-- **StoryDeck**, a local-first, on-device sprint deck tool (private).
-- **PM-with-AI**, a tool-agnostic methodology for working with AI as a product manager (private).
-- **Mira**, a local-first short-form-video engine (English and Hindi, human in the loop). Private; will publish under AGPL-3.0.
-- **Coco Graphify**, a managed code-knowledge-graph; and **Coco Ads**, a fully local launch-video skill adapted from the open-source `brag` skill (credited).
-
-## A note on this account
-
-Alongside the original work above, this account keeps a curated set of forks we study to benchmark our own product decisions (model routers, agent harnesses, memory systems, and video tools). Those are other people's projects, kept for reference, and are not represented as ours.
+- [strix](https://github.com/coco-research/strix), forked from [usestrix/strix](https://github.com/usestrix/strix)
+- [hf-hub](https://github.com/coco-research/hf-hub), forked from [cjpais/hf-hub](https://github.com/cjpais/hf-hub) (itself a fork of [huggingface/hf-hub](https://github.com/huggingface/hf-hub))
+- [Code-2](https://github.com/coco-research/Code-2), forked from [RizRiyz/luvus](https://github.com/RizRiyz/luvus)
+- [Swarm-Intelligence-](https://github.com/coco-research/Swarm-Intelligence-), forked from [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
+- [g0dm0d3](https://github.com/coco-research/g0dm0d3), forked from [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3)
+- [ai-file-sorter](https://github.com/coco-research/ai-file-sorter), forked from [hyperfield/ai-file-sorter](https://github.com/hyperfield/ai-file-sorter)
