@@ -1,5 +1,7 @@
 # Coco Research
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+
 Coco Research: local-first tools for people who work with AI agents.
 
 What this work is about: governed memory, agents that follow rules and verify their own work, data sovereignty, and shipping fast without hand-waving.
@@ -36,3 +38,9 @@ Original work, grouped by what it does.
 ## A note on this account
 
 Alongside the original work above, this account keeps a curated set of forks we study to benchmark our own product decisions (model routers, agent harnesses, memory systems, and video tools). Those are other people's projects, kept for reference, and are not represented as ours.
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE). See [NOTICE](NOTICE).
+
+Earlier commits of this repository were published without a license. The Apache-2.0 grant applies from the commit that adds this license.
