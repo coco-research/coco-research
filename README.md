@@ -8,7 +8,7 @@ What this work is about: governed memory, agents that follow rules and verify th
 
 ## Coco, the flagship
 
-**[coco](https://github.com/coco-research/coco)** is an agentic-AI orchestration framework that turns Claude Code, Cursor, or Codex into a full engineering department: an advisory board, skills, and commands. Open-core — the framework is MIT; the Super Intelligence board is proprietary.
+**[coco](https://github.com/coco-research/coco)** is an agentic-AI orchestration framework that turns Claude Code, Cursor, or Codex into a full engineering department: an advisory board, skills, and commands. Open-core — most of the framework is Apache-2.0; the Super Intelligence board is proprietary.
 
 ## The Coco suite
 
