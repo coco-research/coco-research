@@ -24,7 +24,7 @@ Original work, grouped by what it does.
 **Governance and reasoning**
 - **[coco-loops](https://github.com/coco-research/coco-loops)**, a governed autonomous-loop framework: a verifier that defaults to reject, an immutable eight-invariant constitution only a human can amend, a bounded-lifetime kill switch, and a promotion gate. Source-available.
 - **Coco Superintelligence Teams**, attributed decision panels, used for real architecture and product decisions. Ships inside `coco` as the proprietary core of the open-core split.
-- **[coco-fusion](https://github.com/coco-research/coco-fusion)**, a bring-your-own-key multi-model persona council, parked after an honest null-result evaluation against a single frontier model. Source-available.
+- **[coco-fusion](https://github.com/coco-research/coco-fusion)**, a bring-your-own-key multi-model persona council, now parked. Source-available.
 
 **Apps and tools**
 - **[Coco-Voice](https://github.com/coco-research/Coco-Voice)**, an on-device speech-to-text desktop app.
